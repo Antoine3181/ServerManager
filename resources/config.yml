@@ -1,0 +1,72 @@
+#
+# © copryright 2021 Antoine31811395
+#
+
+#plugin version 1.0.0
+
+#   <Whitelist Message>
+
+whitelistMessage: "§cThe server is whitelisted !"
+
+#   <Join settings and messages>
+#
+#   if you do not want the option set false
+#   for example clearEffect: "false"
+#   dont clear the effect of player when he join the server
+#
+#   for get player name use {PLAYER}
+#   for example setJoinMessage: "{PLAYER} join the server!"
+#
+#   for setGammemode, setFood, setHealth and setMaxHealth please enter a number !
+#   for gammeode: 0 = survival, 1 = creative, 2 = adventure and 3 = spectator, DEFAULT = 0
+#   for food: DEFAULT = 20
+#   for health: DEFAULT = 20
+#   for maxhealth: the number 2 = 1 heart, DEFAULT = 20
+
+setGamemode: "1"
+setFood: "5"
+setHealth: "20"
+setMaxHealth: "30"
+
+clearInventory: "true"
+clearAmorInventory: "true"
+clearEffect: "true"
+
+JoinMessageBroadcastType: "false"
+JoinMessageBroadcastTipType: "true"
+
+setJoinMessage: "§a[ServerManager] {PLAYER} join the game !"
+
+#   <TeleportWorld command>
+#
+#   the command: /tpw <worldname> teleport you to a world
+#
+#   you can set the permission to use this command
+
+TeleportWorldPermission: "teleportworld.permission"
+
+#   <Kick Message>
+#
+#   for get player name use {PLAYER}
+#
+#   and for get the reason of the kick use {REASON}
+
+kickNoReasonMessage: "§c{PLAYER} was kicked for no reason !"
+kickMessage: "§c{PLAYER} was kicked for : §l{REASON}"
+
+#   <other settings>
+#
+#   if you dont want to disable set "false"
+
+noFoodLose: "false"
+noDropItem: "true"
+
+#   <quit message>
+#
+#   for get player name use {PLAYER}
+
+QuitMessageBroadcastType: "true"
+QuitMessageBroadcastTipType: "false"
+
+setQuitMessage: "§c[ServerManager] {PLAYER} quit the game !"
+

@@ -1,0 +1,9 @@
+name: ServerManager
+main: Antoine31811395\servermanager\Main
+version: 1.0.0
+api: 3.0.0
+author: Antoine31811395
+
+commands:
+  tpw:
+    description: teleport to world
