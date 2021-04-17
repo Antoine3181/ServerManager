@@ -8,6 +8,6 @@
 
 ## About
 - discord: Antoine3181#0202
-- my server discord: https://discord.gg/h7YECUb
+- the discord of my minecraft server: https://discord.gg/h7YECUb
 - my server ip: play.eventnetwork.fr 19132
 
