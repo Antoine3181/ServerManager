@@ -50,7 +50,7 @@ class Main extends PluginBase implements Listener{
 		$player = $event->getPlayer();
 		$name = $player->getName();
 
-		if(!$player->isWhitelisted($name)) {
+		if(!$player->isWhitelisted()) {
 
 			/*
 			@Var initialization
